@@ -1,0 +1,92 @@
+/* ===== إعدادات عامة ===== */
+body {
+  font-family: "Tahoma", Arial, sans-serif;
+  background: linear-gradient(to bottom, #ffffff, #f5f2e8);
+  color: #0d3b66;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+/* ===== العنوان ===== */
+h1 {
+  font-size: 70px;
+  margin: 60px 20px;
+  color: #d4af37;
+  text-shadow: 0 0 25px rgba(255, 215, 0, 0.8);
+}
+
+/* ===== نص الرسالة ===== */
+p {
+  font-size: 26px;
+  line-height: 2.2;
+  max-width: 1100px;
+  margin: 40px auto;
+  padding: 40px;
+  background: #ffffff;
+  border-radius: 25px;
+  box-shadow: 0 0 40px rgba(0,0,0,0.08);
+  color: #1b1b2f;
+}
+
+/* ===== صورة الأب ===== */
+.father-img {
+  width: 420px;
+  margin: 40px auto 15px;
+  display: block;
+  border-radius: 20px;
+
+  border: 8px solid #d4af37;
+  padding: 6px;
+  background: #fff;
+
+  box-shadow:
+    0 0 30px rgba(212,175,55,0.7),
+    inset 0 0 15px rgba(255,215,0,0.5);
+
+  transition: transform 0.5s ease, box-shadow 0.5s ease;
+}
+
+.father-img:hover {
+  transform: scale(1.1);
+  box-shadow:
+    0 0 70px rgba(212,175,55,1),
+    inset 0 0 25px rgba(255,215,0,0.9);
+}
+
+/* ===== اسم الوالد ===== */
+.father-name {
+  font-size: 24px;
+  color: #8b7500;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+/* ===== صور عبد الرحمن ===== */
+.sons-container {
+  display: flex;
+  justify-content: center;
+  gap: 70px;
+  margin: 40px 0 80px;
+  flex-wrap: wrap;
+}
+
+.sons-container img {
+  width: 320px;
+  border-radius: 18px;
+  box-shadow: 0 0 30px rgba(0,0,0,0.3);
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+.sons-container img:hover {
+  transform: scale(1.15);
+  box-shadow: 0 0 80px rgba(255,215,0,0.9);
+}
+
+/* ===== الفوتر ===== */
+footer {
+  padding: 25px;
+  background: #0d3b66;
+  color: #fff;
+  font-size: 18px;
+}
